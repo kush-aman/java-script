@@ -1,0 +1,40 @@
+#button1{
+  background-color: olivedrab;
+}
+.button2{
+  background-color: brown;
+}
+#bag{
+  background-color: rgb(143, 224, 143);
+  border: none;
+  border-radius: 6px;
+  height: 25px;
+
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+#bag:hover{
+  background-color: rgb(170, 197, 129);
+}
+#bag:active{
+  transition-duration: 0s;
+  background-color: rgb(120, 158, 142);
+}
+#wishlist{
+  height: 30px;
+  border-radius: 8px;
+
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+#wishlist:hover{
+  background-color: rgb(187, 181, 181);
+}
+#wishlist:active{
+  transition-duration: 0s;
+  background-color: rgb(134, 126, 126);
+}

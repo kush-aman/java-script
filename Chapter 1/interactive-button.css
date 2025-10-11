@@ -1,0 +1,15 @@
+#click-me{
+      border: 2px solid black;
+      height: 40px;
+      width: 40px;
+      transition-duration: 1s;
+      transition-property: all;
+      transition-timing-function: ease-in-out;
+      transition-delay: 0s;
+    }
+    #click-me:hover{
+      border: 2px solid red;
+      height: 100px;
+      width: 100px;
+
+    }
