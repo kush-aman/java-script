@@ -1,0 +1,10 @@
+#bag{
+  background-color: lightgreen;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 9px;
+}
+#wishlist{
+  padding: 5px 25px;
+  text-transform: uppercase;
+}
