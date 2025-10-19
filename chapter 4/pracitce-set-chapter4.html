@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice set chapter 4</title>
+</head>
+<body>
+  <script>
+    function checkEvenOrOdd(a , b){
+      if(a % 2 == 0){
+        return `${a} is Even`;  
+      }
+      else if(b % 2 == 0){
+        return `${b} is Even`;
+      }
+      else{
+        return `Number is Odd`
+      }
+    }
+    console.log(checkEvenOrOdd(3,4));
+
+    function largeNum(a , b){
+      if(a > b){
+        return `${a} is the larger number.`;
+      }
+      else{
+        return `${b} is the larger number.`;
+      }
+    }
+    console.log(largeNum(81 , 7));
+
+    function Converter(C){
+      let F = (9/5)*C + 32;
+      return `Temperature in Fahrenheit is ${F}`; 
+    }
+    console.log(Converter(32));
+  </script>
+</body>
+</html>
