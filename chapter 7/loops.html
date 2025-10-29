@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loops</title>
+</head>
+<body>
+  <script>
+    //While loop
+    let num = 0;
+    while (num <= 10){
+      num++;
+      console.log(num);
+    }
+    console.log('Final value of num is: ' + num);
+
+
+
+    let x = 0;
+    while (x < 1){
+      console.log(x);
+      x = Math.floor(Math.random() * 2);
+    }
+    console.log('Final value of x is: ' + x);
+
+
+    //Do while loop
+    let a = 0;
+    do{
+      console.log(a);
+      a++;
+    }while(a < 5);
+
+
+    //For loop
+    for (let num = 1 ; num <= 10 ; num++){
+      console.log(num);
+    }
+
+
+
+    //For loop with arrays
+    let nums = [4,56,8,3,9,-87];
+    for(let i = 0 ; i < nums.length ; i++){
+      console.log(nums[i]);
+    }
+
+
+
+    //Accumulator Pattern
+    let numbers = [3,5,4,3,7,6,8,7];
+    let sum = 0;
+    for(let i = 0; i < numbers.length; i++){
+      sum += numbers[i];
+    }
+    console.log(`Sum of the array is: ${sum} `);
+
+    let squares = [];
+    for(let i = 0; i < numbers.length; i++){
+      squares[i] = numbers[i] * numbers[i]
+      //squares.push(numbers[i] * numbers[i]);
+    }
+    console.log(squares);
+
+
+
+    //Break and Continue
+    for(let i = 0 ; i  < 50 ; i++){
+      console.log(i);
+      if(i == 34){
+        break;
+      }
+    }
+
+
+    let arr5 = [1,2,4,3,6,5,8,7,4,7,5];
+    for(let i = 0 ; i < arr5.length ; i++){
+      if(arr5[i] == 8){
+        console.log(`Number found at the index ${i}`);
+        break;
+      }
+      console.log('Still looking');
+    }
+
+
+    for(let i = 1 ; i <= 25; i++){
+      if(i % 2 == 0){
+      continue;
+      }
+      console.log(i);
+    }
+  </script>
+</body>
+</html>
